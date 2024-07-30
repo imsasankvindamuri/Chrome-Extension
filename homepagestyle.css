@@ -1,0 +1,28 @@
+body {
+    background-color: bisque;
+    font-family: Helvetica;  
+}
+
+h1,h2 {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 10px;
+    color: burlywood;
+}
+
+.whitebox {
+    background-color: white;
+    width: 33%;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+    transform: translate(99%, 5%);
+}
+
+.imagestuff img {
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    border: 10px solid grey;
+    transform: translate(5%, 5%);
+}
