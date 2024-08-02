@@ -1,6 +1,9 @@
 body {
     background-color: bisque;
-    font-family: Helvetica;  
+    font-family: Helvetica;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1,h2 {
@@ -12,11 +15,13 @@ h1,h2 {
 
 .whitebox {
     background-color: white;
-    width: 33%;
-    align-items: center;
-    border-radius: 15px;
     padding: 10px;
-    transform: translate(99%, 5%);
+    width: 33%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .imagestuff img {
@@ -24,5 +29,7 @@ h1,h2 {
     width: 90%;
     border-radius: 10px;
     border: 10px solid grey;
-    transform: translate(5%, 5%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
