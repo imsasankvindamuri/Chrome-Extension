@@ -1,0 +1,3 @@
+Goal:
+
+To create a working pomodoro clock in a website using HTML, CSS and JS
